@@ -1,0 +1,9 @@
+c:\users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\bin\Debug\StudIsu.exe.config
+C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\bin\Debug\StudIsu.exe
+C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\bin\Debug\StudIsu.pdb
+C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.csprojResolveAssemblyReference.cache
+C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.Form1.resources
+C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.Properties.Resources.resources
+C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.csproj.GenerateResource.Cache
+C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.exe
+C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.pdb
