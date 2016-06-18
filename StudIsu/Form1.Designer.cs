@@ -28,13 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.GroupBox = new System.Windows.Forms.ComboBox();
-            this.StudentNameBox = new System.Windows.Forms.ComboBox();
-            this.StudentFNameBox = new System.Windows.Forms.ComboBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.AddButton = new System.Windows.Forms.Button();
             this.NFNameBox = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.NNameBox = new System.Windows.Forms.TextBox();
             this.NMarkBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,40 +37,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.NGroup = new System.Windows.Forms.ComboBox();
+            this.NGroupBox = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.IdBox = new System.Windows.Forms.TextBox();
+            this.EditButton = new System.Windows.Forms.Button();
+            this.DeleteButton = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // GroupBox
-            // 
-            this.GroupBox.FormattingEnabled = true;
-            this.GroupBox.Location = new System.Drawing.Point(12, 12);
-            this.GroupBox.Name = "GroupBox";
-            this.GroupBox.Size = new System.Drawing.Size(121, 21);
-            this.GroupBox.TabIndex = 0;
-            // 
-            // StudentNameBox
-            // 
-            this.StudentNameBox.FormattingEnabled = true;
-            this.StudentNameBox.Location = new System.Drawing.Point(12, 123);
-            this.StudentNameBox.Name = "StudentNameBox";
-            this.StudentNameBox.Size = new System.Drawing.Size(121, 21);
-            this.StudentNameBox.TabIndex = 1;
-            // 
-            // StudentFNameBox
-            // 
-            this.StudentFNameBox.FormattingEnabled = true;
-            this.StudentFNameBox.Location = new System.Drawing.Point(12, 65);
-            this.StudentFNameBox.Name = "StudentFNameBox";
-            this.StudentFNameBox.Size = new System.Drawing.Size(121, 21);
-            this.StudentFNameBox.TabIndex = 1;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(250, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(311, 134);
-            this.listBox1.TabIndex = 2;
             // 
             // AddButton
             // 
@@ -89,30 +57,23 @@
             // 
             // NFNameBox
             // 
-            this.NFNameBox.Location = new System.Drawing.Point(591, 82);
+            this.NFNameBox.Location = new System.Drawing.Point(662, 82);
             this.NFNameBox.Name = "NFNameBox";
-            this.NFNameBox.Size = new System.Drawing.Size(251, 20);
+            this.NFNameBox.Size = new System.Drawing.Size(180, 20);
             this.NFNameBox.TabIndex = 4;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(591, 126);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(251, 20);
-            this.textBox3.TabIndex = 4;
             // 
             // NNameBox
             // 
-            this.NNameBox.Location = new System.Drawing.Point(591, 126);
+            this.NNameBox.Location = new System.Drawing.Point(662, 38);
             this.NNameBox.Name = "NNameBox";
-            this.NNameBox.Size = new System.Drawing.Size(251, 20);
+            this.NNameBox.Size = new System.Drawing.Size(180, 20);
             this.NNameBox.TabIndex = 4;
             // 
             // NMarkBox
             // 
-            this.NMarkBox.Location = new System.Drawing.Point(591, 170);
+            this.NMarkBox.Location = new System.Drawing.Point(662, 170);
             this.NMarkBox.Name = "NMarkBox";
-            this.NMarkBox.Size = new System.Drawing.Size(251, 20);
+            this.NMarkBox.Size = new System.Drawing.Size(180, 20);
             this.NMarkBox.TabIndex = 4;
             // 
             // label1
@@ -120,14 +81,14 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(687, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 5;
-            this.label1.Text = "New Student";
+            this.label1.Text = "Student";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(890, 46);
+            this.label2.Location = new System.Drawing.Point(848, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 5;
@@ -136,7 +97,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(890, 82);
+            this.label3.Location = new System.Drawing.Point(848, 89);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 5;
@@ -145,7 +106,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(890, 123);
+            this.label4.Location = new System.Drawing.Point(848, 41);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 5;
@@ -154,25 +115,65 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(526, 170);
+            this.label5.Location = new System.Drawing.Point(625, 173);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(31, 13);
             this.label5.TabIndex = 5;
             this.label5.Text = "Mark";
             // 
-            // NGroup
+            // NGroupBox
             // 
-            this.NGroup.FormattingEnabled = true;
-            this.NGroup.Location = new System.Drawing.Point(591, 38);
-            this.NGroup.Name = "NGroup";
-            this.NGroup.Size = new System.Drawing.Size(251, 21);
-            this.NGroup.TabIndex = 0;
+            this.NGroupBox.Location = new System.Drawing.Point(662, 125);
+            this.NGroupBox.Name = "NGroupBox";
+            this.NGroupBox.Size = new System.Drawing.Size(180, 20);
+            this.NGroupBox.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnKeystroke;
+            this.dataGridView1.Location = new System.Drawing.Point(139, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(517, 143);
+            this.dataGridView1.TabIndex = 6;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
+            // 
+            // IdBox
+            // 
+            this.IdBox.Enabled = false;
+            this.IdBox.Location = new System.Drawing.Point(834, 12);
+            this.IdBox.Name = "IdBox";
+            this.IdBox.Size = new System.Drawing.Size(100, 20);
+            this.IdBox.TabIndex = 7;
+            this.IdBox.Visible = false;
+            // 
+            // EditButton
+            // 
+            this.EditButton.Location = new System.Drawing.Point(513, 184);
+            this.EditButton.Name = "EditButton";
+            this.EditButton.Size = new System.Drawing.Size(75, 23);
+            this.EditButton.TabIndex = 3;
+            this.EditButton.Text = "Edit";
+            this.EditButton.UseVisualStyleBackColor = true;
+            this.EditButton.Click += new System.EventHandler(this.EditButton_Click);
+            // 
+            // DeleteButton
+            // 
+            this.DeleteButton.Location = new System.Drawing.Point(409, 184);
+            this.DeleteButton.Name = "DeleteButton";
+            this.DeleteButton.Size = new System.Drawing.Size(75, 23);
+            this.DeleteButton.TabIndex = 3;
+            this.DeleteButton.Text = "Delete";
+            this.DeleteButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.Click += new System.EventHandler(this.DeleteButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(958, 219);
+            this.Controls.Add(this.IdBox);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -180,17 +181,15 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.NMarkBox);
             this.Controls.Add(this.NNameBox);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.NFNameBox);
+            this.Controls.Add(this.DeleteButton);
+            this.Controls.Add(this.EditButton);
             this.Controls.Add(this.AddButton);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.StudentFNameBox);
-            this.Controls.Add(this.StudentNameBox);
-            this.Controls.Add(this.NGroup);
-            this.Controls.Add(this.GroupBox);
+            this.Controls.Add(this.NGroupBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,13 +197,8 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox GroupBox;
-        private System.Windows.Forms.ComboBox StudentNameBox;
-        private System.Windows.Forms.ComboBox StudentFNameBox;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button AddButton;
         private System.Windows.Forms.TextBox NFNameBox;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox NNameBox;
         private System.Windows.Forms.TextBox NMarkBox;
         private System.Windows.Forms.Label label1;
@@ -212,7 +206,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox NGroup;
+        private System.Windows.Forms.TextBox NGroupBox;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox IdBox;
+        private System.Windows.Forms.Button EditButton;
+        private System.Windows.Forms.Button DeleteButton;
     }
 }
 

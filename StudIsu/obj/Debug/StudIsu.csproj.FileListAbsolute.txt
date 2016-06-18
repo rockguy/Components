@@ -7,3 +7,12 @@ C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\Stu
 C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.csproj.GenerateResource.Cache
 C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.exe
 C:\Users\irk\documents\visual studio 2013\Projects\StudIsu\StudIsu\obj\Debug\StudIsu.pdb
+C:\Users\Алена\Desktop\papka\Components\StudIsu\bin\Debug\StudIsu.exe.config
+C:\Users\Алена\Desktop\papka\Components\StudIsu\obj\Debug\StudIsu.exe
+C:\Users\Алена\Desktop\papka\Components\StudIsu\obj\Debug\StudIsu.pdb
+C:\Users\Алена\Desktop\papka\Components\StudIsu\bin\Debug\StudIsu.exe
+C:\Users\Алена\Desktop\papka\Components\StudIsu\bin\Debug\StudIsu.pdb
+C:\Users\Алена\Desktop\papka\Components\StudIsu\obj\Debug\StudIsu.csprojResolveAssemblyReference.cache
+C:\Users\Алена\Desktop\papka\Components\StudIsu\obj\Debug\StudIsu.Form1.resources
+C:\Users\Алена\Desktop\papka\Components\StudIsu\obj\Debug\StudIsu.Properties.Resources.resources
+C:\Users\Алена\Desktop\papka\Components\StudIsu\obj\Debug\StudIsu.csproj.GenerateResource.Cache

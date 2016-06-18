@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace StudIsu
 {
-    class Student
+    public class Student
     {
         public int Id;
         public string Name;
